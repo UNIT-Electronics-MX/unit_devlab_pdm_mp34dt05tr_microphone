@@ -1,11 +1,13 @@
-# UNIT PDM MEMS Microphone MP34DT05
+# DevLab: PDM MEMS Microphone MP34DT05
 
 This is a breakout board for the PDM MEMS Microphone MP34DT05, a high-performance digital microphone with excellent signal-to-noise ratio and a very low power consumption. This module is based on the Adafruit PDM MEMS Microphone Breakout design, but it features the MP34DT05 microphone, which provides superior 
 performance compared to other MEMS microphones.
 
-<a href="https://uelectronics.com/"><img src="Hardware/Front.png?raw=false" width="200px" href="https://uelectronics.com/"><img src="Hardware/Back.png?raw=false" width="200px" href="https://uelectronics.com/"><img src="Hardware/MIC.png?raw=false" width="200px"><br/>
-*Click here to purchase one from the UNIT Electronics shop*</a>
+<div align="center">
 
+<a href="https://uelectronics.com/"><img src="Hardware/resources/img/AR3631-UNIT_MP34DT05TR-A_Módulo_Micrófono_PDM_(2)_1.png?raw=false" width="500px" href="https://uelectronics.com/"><br/>
+*Click here to purchase one from the UNIT Electronics shop*</a>
+</div>
 
 # Features
 * High-quality PDM MEMS microphone MP34DT05
