@@ -5,7 +5,7 @@ performance compared to other MEMS microphones.
 
 <div align="center">
 
-<a href="https://uelectronics.com/"><img src="Hardware/resources/img/AR3631-UNIT_MP34DT05TR-A_Módulo_Micrófono_PDM_(2)_1.png?raw=false" width="500px" href="https://uelectronics.com/"><br/>
+<a href="https://uelectronics.com/"><img src="hardware/resources/img/AR3631-%20UNIT%20MP34DT05TR-A%20M%C3%B3dulo%20Micr%C3%B3fono%20PDM%20(2)_1.jpg" width="500px"><br/>
 *Click here to purchase one from the UNIT Electronics shop*</a>
 </div>
 
@@ -28,6 +28,8 @@ The PDM MEMS Microphone MP34DT05 breakout board is very easy to use. Simply conn
 [Datasheet](https://www.st.com/resource/en/datasheet/mp34dt05-a.pdf) for the MP34DT05 PDM MEMS microphone
 
 [UNIT PDM MEMS Microphone Breakout Guide UF2](https://github.com/UNIT-Electronics/UNIT-PDM-MEMS-Microphone-Breakout-Guide-UF2#readme)
+
+[Microphone Library for Pico Pulsar (RP2040/RP2350)](https://github.com/UNIT-Electronics-MX/microphone-library-for-pico-pulsar) - Official support for RP2040/RP2350
 
 # Product Information
 
