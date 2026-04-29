@@ -1,14 +1,22 @@
-# Software — UNIT DevLab PDM MP34DT05TR Microphone
+<div align="center">
 
-This folder contains example code for the **UNIT DevLab PDM MP34DT05TR Microphone Breakout**, a digital MEMS microphone based on the ST MP34DT05-A sensor. Examples target the **Raspberry Pi Pico / Pico 2 (RP2040 / RP2350)** using the Arduino framework.
+<h1>Software &mdash; UNIT DevLab PDM MP34DT05TR Microphone</h1>
 
-![Wiring diagram](../hardware/resources/img/connect.png)
+<p>
+  Example code for the <strong>UNIT DevLab PDM MP34DT05TR Microphone Breakout</strong>,<br>
+  a digital MEMS microphone based on the ST&nbsp;MP34DT05-A sensor.<br>
+  Examples target the <strong>Raspberry Pi Pico&nbsp;/&nbsp;Pico&nbsp;2 (RP2040&nbsp;/&nbsp;RP2350)</strong> using the Arduino framework.
+</p>
 
-![Serial live plot](../hardware/resources/img/pdm_serial.png)
+<img src="../hardware/resources/img/connect.png" width="480" alt="Wiring diagram"/>
+<br/>
+<img src="../hardware/resources/img/pdm_serial.png" width="700" alt="Serial live plot"/>
+
+</div>
 
 ---
 
-## Folder structure
+## 📁 Folder structure
 
 ```
 software/
@@ -20,9 +28,11 @@ software/
 
 ---
 
-## Requirements
+## ✅ Requirements
 
-### Hardware
+<details>
+<summary><strong>Hardware</strong></summary>
+<br>
 
 | Item | Details |
 |------|---------|
@@ -30,19 +40,25 @@ software/
 | UNIT DevLab PDM Mic | MP34DT05-A breakout |
 | Cable | JST connector or breadboard wires |
 
-### Software
+</details>
 
-| Tool | Version |
-|------|---------|
+<details>
+<summary><strong>Software</strong></summary>
+<br>
+
+| Tool | Notes |
+|------|-------|
 | Arduino IDE | 2.x recommended |
-| arduino-pico core | latest (earlephilhower) |
+| arduino-pico core | latest — earlephilhower |
 | Python | 3.9 + |
 | pyserial | `pip install pyserial` |
 | matplotlib *(optional)* | `pip install matplotlib` |
 
+</details>
+
 ---
 
-## Available examples
+## 📦 Available examples
 
 | Example | Description |
 |---------|-------------|
@@ -50,13 +66,13 @@ software/
 
 ---
 
-## Quick start
+## 🚀 Quick start
 
-1. Wire the microphone to the Pico (see table in `cpp_examples/README.md`).
+1. Wire the microphone to the Pico — see the wiring table in [`cpp_examples/README.md`](cpp_examples/README.md).
 2. Install the **arduino-pico** board package in Arduino IDE.
-3. Open `cpp_examples/pdm_microphone/pdm_microphone.ino` and upload.
-4. Open the Serial Monitor at **115200 baud** — you should see signed integer samples printed one per line.
-5. *(Optional)* Run the Python viewer for a live waveform plot:
+3. Open `cpp_examples/pdm_microphone/pdm_microphone.ino` and click **Upload**.
+4. Open the Serial Monitor at **115 200 baud** — you should see signed integer samples printed one per line.
+5. *(Optional)* Launch the Python live plotter:
 
 ```sh
 python3 cpp_examples/pdm_microphone/serial_live_samples.py
