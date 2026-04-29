@@ -8,9 +8,11 @@ This example is the Arduino equivalent of `hello_pdm_microphone` from pico-sdk:
 
 ## Requirements
 
-- Arduino IDE or `arduino-cli`
+- Arduino IDE
 - Raspberry Pi Pico / Pico 2 board package installed
 - `PDM` library available in your selected core
+
+![Live plot example](../../hardware/resources/img/connect.png)
 
 ## Wiring (default)
 
@@ -19,36 +21,24 @@ This example is the Arduino equivalent of `hello_pdm_microphone` from pico-sdk:
 | 3.3V | VCC |
 | GND | GND |
 | GND | SEL |
-| GPIO 11 | DAT (DIN) |
-| GPIO 10 | CLK |
+| GPIO 4 | DAT (DIN) |
+| GPIO  5 | CLK |
 
 For arduino-pico RP2040/RP2350 core, pins are set in the sketch with:
 
-- `PDM.setDIN(11)`
-- `PDM.setCLK(10)`
+- `PDM.setDIN(4)`
+- `PDM.setCLK(5)`
 
-## Build with arduino-cli
+## Build with Arduino IDE
 
-Install board core (example with arduino-pico by Earle Philhower):
-
-```sh
-arduino-cli core update-index --additional-urls https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json
-arduino-cli core install rp2040:rp2040 --additional-urls https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json
-```
-
-Compile (example FQBN for Pico 2):
-
-```sh
-arduino-cli compile --fqbn rp2040:rp2040:rpipico2 examples/arduino_pdm_microphone
-```
-
-Upload:
-
-```sh
-arduino-cli upload -p /dev/ttyACM0 --fqbn rp2040:rp2040:rpipico2 examples/arduino_pdm_microphone
-```
-
-Adjust FQBN/port for your board.
+1. Open Arduino IDE
+2. Go to **File** > **Preferences** > **Additional Board Manager URLs**
+3. Add: `https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json`
+4. Go to **Tools** > **Board** > **Boards Manager**
+5. Search for "rp2040" and install the arduino-pico core
+6. Select your board: **Tools** > **Board** > **Raspberry Pi Pico** (or **Pico 2**)
+7. Open `examples/arduino_pdm_microphone`
+8. Click **Upload**
 
 ## Live Serial Viewer (Python)
 
@@ -72,6 +62,7 @@ Run:
 ```sh
 python3 examples/arduino_pdm_microphone/serial_live_samples.py --port /dev/ttyACM0 --baud 115200 --sample-rate 8000 --seconds 1.0
 ```
+
 
 Live plot mode (default):
 
@@ -103,3 +94,4 @@ If you see `PDM microphone initialization failed!`:
 1. Confirm DIN and CLK wiring matches the table.
 2. Confirm your board package includes RP2040/RP2350 PDM support.
 3. Try a safer sample rate (e.g. `16000`) if your board/core is heavily loaded.
+

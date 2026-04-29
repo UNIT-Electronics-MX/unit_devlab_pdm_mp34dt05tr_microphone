@@ -1,0 +1,5 @@
+venv
+./hardware/venv/
+software/venv/
+software/cpp_examples/venv/
+software/cpp_examples/pdm_microphone/venv/
