@@ -14,7 +14,7 @@
 
 ---
 
-## ⚙️ How it works
+## How it works
 
 1. The **arduino-pico** `PDM` library configures the RP2040/RP2350 PIO-based PDM peripheral.
 2. An interrupt callback (`onPdmData`) fills a 256-sample buffer every time new audio data is ready.
@@ -23,7 +23,7 @@
 
 ---
 
-## 🔌 Wiring
+## Wiring
 
 <div align="center">
 
@@ -41,7 +41,7 @@
 
 ---
 
-## ✅ Requirements
+## Requirements
 
 - **Arduino IDE 2.x**
 - **arduino-pico** board package (earlephilhower)
@@ -53,7 +53,7 @@
 
 ---
 
-## 🚀 Upload with Arduino IDE
+## Upload with Arduino IDE
 
 1. Open **Arduino IDE**.
 2. Go to **File › Preferences › Additional Board Manager URLs** and paste the URL above.
@@ -66,7 +66,7 @@
 
 ---
 
-## 📊 Live viewer &mdash; Python
+## Live viewer &mdash; Python
 
 The `serial_live_samples.py` script reads the Serial stream and displays:
 
@@ -114,7 +114,7 @@ Press **Ctrl + C** to stop.
 
 ---
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 <div align="center">
 
