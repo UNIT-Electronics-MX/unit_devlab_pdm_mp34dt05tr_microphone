@@ -32,8 +32,6 @@
 | VCC   | 3.3 V – 5.5 V | Provides power to the on-board regulator and sensor core. |
 
 
-> **Note:** The module also includes a 
-
 </div>
 
 ## 📃 Topology
@@ -41,20 +39,21 @@
 <div align="center">
 
 
-<a href="./resources/unit_topology_V_0_0_1_ue0104_mspm0c1104sdsgr_devlab.png"><img src="./resources/unit_topology_V_0_0_1_ue0104_mspm0c1104sdsgr_devlab.png" width="500px"><br/> Topology</a>
+<a href="./resources/unit_topology_v_0_0_1ue0011_devlab_pdm_mp34dt05tr_microphone.png"><img src="./resources/unit_topology_v_0_0_1ue0011_devlab_pdm_mp34dt05tr_microphone.png" width="500px"><br/> Topology</a>
 <br/>
 <br/>
 <br/>
 
 | Ref. | Description                               |
 |------|-------------------------------------------|
+| | |
 
 </div>
 
 ## 📏 Dimensions
 
 <div align="center">
-<a href="./resources/unit_dimensions_V_0_0_1_ue0104_mspm0c1104sdsgr_devlab.png"><img src="./resources/unit_dimensions_V_0_0_1_ue0104_mspm0c1104sdsgr_devlab.png" width="500px"><br/> Dimensions</a>
+<a href="./resources/unit_dimensions_v_0_0_1ue0011_devlab_pdm_mp34dt05tr_microphone.png"><img src="./resources/unit_dimensions_v_0_0_1ue0011_devlab_pdm_mp34dt05tr_microphone.png" width="500px"><br/> Dimensions</a>
 </div>
 
 
