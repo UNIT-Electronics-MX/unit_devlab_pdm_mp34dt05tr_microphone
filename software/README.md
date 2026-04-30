@@ -1,13 +1,13 @@
-<div align="center">
 
-<h1>Software &mdash; UNIT DevLab PDM MP34DT05TR Microphone</h1>
 
-<p>
+# Software &mdash; UNIT DevLab PDM MP34DT05TR Microphone
+
+
   Example code for the <strong>UNIT DevLab PDM MP34DT05TR Microphone Breakout</strong>,<br>
   a digital MEMS microphone based on the ST MP34DT05-A sensor.<br>
   Targets the <strong>Raspberry Pi Pico / Pico 2 (RP2040 / RP2350)</strong> using the Arduino framework.
-</p>
 
+<div align="center">
 <img src="../hardware/resources/img/connect.png" width="480" alt="Wiring diagram"/>
 <br/>
 <img src="../hardware/resources/img/pdm_serial.png" width="700" alt="Serial live plot"/>
@@ -49,7 +49,7 @@ software/
 | Tool | Notes |
 |------|-------|
 | Arduino IDE | 2.x recommended |
-| arduino-pico core | latest (earlephilhower) |
+| UNIT Electronics DualMCU package | URL: `https://github.com/UNIT-Electronics/Uelectronics-RP2040-Arduino-Package` |
 | Python | 3.9 or later |
 | pyserial | `pip install pyserial` |
 | matplotlib (optional) | `pip install matplotlib` |

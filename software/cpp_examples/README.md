@@ -1,12 +1,11 @@
+# Arduino PDM Microphone Example
+
+
+Arduino implementation of the classic `pdm_microphone` example from the pico-sdk.
+
+Captures audio from the **UNIT DevLab PDM MP34DT05TR Microphone** and streams signed 16-bit PCM samples over Serial.
+
 <div align="center">
-
-<h1>Arduino PDM Microphone Example</h1>
-
-<p>
-  Arduino implementation of the classic <code>hello_pdm_microphone</code> example from the pico-sdk.<br>
-  Captures audio from the <strong>UNIT DevLab PDM MP34DT05TR Microphone</strong> and streams<br>
-  signed 16-bit PCM samples over Serial.
-</p>
 
 <img src="../../hardware/resources/img/connect.png" width="480" alt="Wiring diagram"/>
 
@@ -44,10 +43,10 @@
 ## Requirements
 
 - **Arduino IDE 2.x**
-- **arduino-pico** board package (earlephilhower)
+- **arduino-pico** board package (UNIT Electronics)
   - Board manager URL:
     ```
-    https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json
+    https://raw.githubusercontent.com/UNIT-Electronics/Uelectronics-RP2040-Arduino-Package/main/package_Uelectronics_rp2040_index.json
     ```
 - `PDM` library — included with the arduino-pico core, no extra install needed
 
