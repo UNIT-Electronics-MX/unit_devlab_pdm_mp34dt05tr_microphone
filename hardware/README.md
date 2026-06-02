@@ -1,7 +1,7 @@
 # Hardware
 
 <div align="center">
-<a href="./unit_sch_v_0_0_1_ue0104_mspm0c1104sdsgr_devlab.pdf"><img src="resources/Schematics_icon.jpg?raw=false" width="200px"><br/>Schematic</a>
+<a href="./unit_sch_v_0_0_1ue0011_devlab_pdm_mp34dt05tr_microphone.pdf"><img src="resources/Schematics_icon.jpg?raw=false" width="200px"><br/>Schematic</a>
 </div>
 
 ## Electrical characteristics
