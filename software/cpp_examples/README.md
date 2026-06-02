@@ -63,6 +63,7 @@ Captures audio from the **UNIT DevLab PDM MP34DT05TR Microphone** and streams si
 7. Click **Upload**.
 8. Open the **Serial Monitor** at **115 200 baud** — you should see a stream of signed integers.
 
+
 ---
 
 ## Live viewer &mdash; Python
