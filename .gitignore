@@ -2,4 +2,18 @@ venv
 ./hardware/venv/
 software/venv/
 software/cpp_examples/venv/
-software/cpp_examples/pdm_microphone/venv/
+software/cpp_examples/pdm_microphone/venv/*.step
+
+# Large mechanical files
+*.step
+*.f3d
+*.glb
+*.stl
+*.zip
+
+# Large mechanical files
+*.step
+*.f3d
+*.glb
+*.stl
+*.zip
